@@ -5,7 +5,7 @@
 }
 
 .wrapper {
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
     background: #FFFFFF;
 }
@@ -18,9 +18,7 @@
 /* header=========================================== */
 
 .header {
-    width: 1440px;
-    height: 768px;
-    background: url(../img/bg.svg);
+    background: url(../img/bg.svg) no-repeat;
 }
 
 .header__container {
@@ -33,7 +31,6 @@
 }
 
 .header-logo {
-    height: 23px;
     margin-top: 42px;
     text-align: center;
 }
@@ -58,14 +55,10 @@
 }
 
 .header-title {
-    width: 630px;
-    height: 100px;
     text-align: center;
 }
 
 .header-title-text {
-    width: 630px;
-    height: 60px;
     letter-spacing: 5.70937px;
     font-family: 'Bebas Neue', cursive;
     font-size: 62px;
@@ -74,7 +67,6 @@
 }
 
 .header-title-span {
-    height: 22px;
     margin-top: 18px;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -106,14 +98,13 @@
 
 /* navigation======================================= */
 .navigation {
-    width: 100%;
+    max-width: 100%;
     border: 1px solid #E6E6E6;
 }
 
 .navigation__container {
     display: flex;
     justify-content: space-between;
-    width: 100%;
     align-items: center;
     text-align: center;
     margin: 24.5px 0;
@@ -163,7 +154,6 @@
 
 /* title our store */
 .title-text {
-    height: 25px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -189,19 +179,22 @@
 
 .line-margin {
     margin: 0 auto;
-    margin-top: 35px;
+    margin-top: 10px;
     
 }
 
 /* main text and books */
 .main {
-    width: 100%  
+    max-width: 100%  
 }
 .main__container {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    width: 100%;
+}
+
+.span {
+    color: #00A4E5;
 }
 
 .main-margin {
@@ -238,8 +231,6 @@
 .main-right {
     display: flex;
     justify-content: space-between;
-    width: 470px;
-    height: 230px;
 }
 
 .main-right-books {
@@ -270,6 +261,7 @@
     letter-spacing: 0.1875px;
     color: #FFFFFF;
     text-transform: uppercase;
+    white-space: pre-line;
     
 }
 
@@ -323,6 +315,11 @@
     color: #FFFFFF;
     cursor: pointer;
     background: #00A4E5;
+}
+
+.button:hover {
+    /* color: #48555B; */
+    background: #48555B;
 }
 
 /* project and construction========================== */
@@ -380,15 +377,15 @@
 
 /* feedback want to build */
 .feedback {
-    width: 100%;
-    height: 499px;
+    max-width: 100%;
+    margin-top: 115px;
     background: url(../img/feedback_background.svg);
     text-align: center;
 }
 
 .feedback-title {
     margin: 0 auto;
-    width: 350px;
+    max-width: 350px;
     height: 72px;
     padding-top: 120px;
     font-family: 'open sans', sans-serif;
@@ -418,7 +415,6 @@
 }
 
 .newsletter {
-    height: 30px;
     font-family: 'open sans', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -426,6 +422,7 @@
     letter-spacing: 0.846154px;
     color: #FFFFFF;
     background: #171819;
+    text-align: center;
 }
 
 .signup {
@@ -452,12 +449,10 @@
 }
 
 .company {
-    width: 250px;
     height: 148px;
 }
 
 .company-title {
-    width: 59px;
     height: 15px;
     left: 0px;
     top: 0px;
@@ -465,19 +460,18 @@
     font-style: normal;
     font-weight: normal;    
     font-size: 11px;
-    text-align: center;
+    text-align: left;
     letter-spacing: 0.846154px;
     text-transform: uppercase;
     color: #FFFFFF;
 }
 
 .h2 {
-    width: 75px;
     height: 23px;
     font-family: 'Bebas Neue', cursive;
     font-size: 21px;
     color: #FFFFFF;
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
 }
 
@@ -583,6 +577,7 @@
     width: 87px;
     height: 13px;
 }
+
 .icons {
     display: inline;
     width: 12.04px;
