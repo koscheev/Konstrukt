@@ -1,1 +1,1 @@
-https://github.com/koscheev/Konstrukt.git
+https://koscheev.github.io/Konstrukt/
