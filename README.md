@@ -1,2 +1,2 @@
-https://github.com/koscheev/konstrukt.git
+https://koscheev.github.io/konstrukt/
 На валидаторе проверил html и css, ошибок нет. Под адаптивную верстку проверил на всех телефонах. Гамбургер мне этот очень понравился!!!
