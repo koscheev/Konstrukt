@@ -10,6 +10,17 @@
     background: #FFFFFF;
 }
 
+.hamburger {
+    position: fixed;
+    display: none;
+    background: url(../img/burger.svg);
+    right: 10px;
+    top: 10px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
 .container {
     width: 66.6%;
     margin: 0 auto;
@@ -18,17 +29,10 @@
 /* header=========================================== */
 
 .header {
-    background: url(../img/bg.svg) no-repeat;
+    background: url(../img/bg.svg) no-repeat center/cover;
 }
 
-.hamburger {
-    display: none;
-    right: 20px;
-    top: 20px;
-    height: 40px;
-    width: 60px;
-    padding: 5px;
-}
+
 
 .header__container {
     display: flex;
@@ -130,6 +134,8 @@
     height: 19px;
     background: #FFFFFF;
 }   
+
+
 .nav-rigt-ul {
     margin-top: 25px;
     margin-left: 22px;
@@ -180,16 +186,16 @@
 .line {
     width: 50px;
     height: 2px;
-    border: 2px solid #00A4E5;
     background: #00A4E5;
-   
-    
 }
 
-.line-margin {
+.line--center {
     margin: 0 auto;
     margin-top: 10px;
-    
+}
+
+.line--left {
+    margin-top: 10px;
 }
 
 /* main text and books */
@@ -212,7 +218,6 @@
 
 .main-left {
     width: 402px;
-    height: 255px;
 }
 
 .main-left-title {
@@ -326,6 +331,10 @@
     background: #00A4E5;
 }
 
+.button--scroll {
+    background: transparent;
+}
+
 .button:hover {
     /* color: #48555B; */
     background: #48555B;
@@ -388,7 +397,7 @@
 .feedback {
     max-width: 100%;
     margin-top: 115px;
-    background: url(../img/feedback_background.svg);
+    background: url(../img/feedback_background.svg) no-repeat center/cover;
     text-align: center;
 }
 
