@@ -21,6 +21,15 @@
     background: url(../img/bg.svg) no-repeat;
 }
 
+.hamburger {
+    display: none;
+    right: 20px;
+    top: 20px;
+    height: 40px;
+    width: 60px;
+    padding: 5px;
+}
+
 .header__container {
     display: flex;
     justify-items: center;
