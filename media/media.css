@@ -2,7 +2,6 @@
     
     .hamburger {
         display: block;
-       
     }
 
     .header__container {
@@ -23,7 +22,6 @@
         display: none;
     }
     
-
     .title-text-padding {
         padding-top: 20px;
     }
